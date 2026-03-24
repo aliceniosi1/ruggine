@@ -1,0 +1,11 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio   = { version = "1.0", features = ["full"] }
+common = { path = "../common" }
+serde   = { version = "1.0", features = ["derive"] }
+sysinfo = "0.28"
+serde_json = "1.0.140"

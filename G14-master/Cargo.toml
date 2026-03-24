@@ -1,0 +1,8 @@
+[workspace]
+# members: elenco dei crate che fanno parte di questo workspace
+members = [
+    "server",
+  "client",
+  "logging",
+  "common", "gui_client",
+]
